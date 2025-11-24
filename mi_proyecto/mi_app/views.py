@@ -29,7 +29,7 @@ def iniciar_sesion(request):
                               {"form":form, "mensaje":"Credenciales incorrectas"})
             
         
-       
+#Hola camarón sin cola. 
 
 def guardar_nombre(request):
    request.session['nombre_usuario'] = 'Invitado'
